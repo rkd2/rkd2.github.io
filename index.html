@@ -11,6 +11,7 @@
 
 	<!-- Bootstrap -->
     <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/rosalynd.css" rel="stylesheet">
 
   <!-- Font Awesome -->
   	<link href="https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css"
@@ -39,24 +40,44 @@
   <style>
 
     body {
-      background-color: rgb(181, 150, 100);
+      background-color: darkgrey;
       padding-top: 70px;
     }
 
-    div.minimal {
+    .minimal {
       background: transparent;
       padding-top: 100px;
       padding-bottom: 120px;
       padding-left: 40px;
     }
 
-    div.panel {
+    .panel {
       background: transparent;
     }
 
-    div.navbar {
-      clear:both;
-    }
+    .navbar-brand {
+      float: left;
+      font-size: 18px;
+      height: 100px;
+      line-height: 2px;
+      padding-top: 50px;
+      padding-left: 40px;
+  }
+
+  .branding-box-copy {
+      text-align: justify;
+      text-justify: inter-word;
+      border-left: 20px solid wheat;
+      padding-left: 20px;
+  }
+
+  .navbar-btn {
+    color: #b59664;
+  }
+
+  #navbar-buttons-on-right {
+    padding-top: 20px;
+  }
 
 
     </style>
@@ -85,22 +106,20 @@
 
 
         <!-- Contact buttons on right side of nav bar -->
-					<div id="navbar" class="navbar-collapse navbar-right collapse">
+					<div id="navbar-buttons-on-right" class="navbar-collapse navbar-right collapse">
 						<ul class="nav navbar-nav">
 
               <!-- Mail button -->
-							<a href="mailto:me@rosalynd.name" class="btn btn-default navbar-btn"
-                style="color:#b59664">
+							<a href="mailto:me@rosalynd.name" class="btn btn-default navbar-btn">
 				        <span class="fa fa-envelope fa-2x" aria-hidden="true"></span></a>
 
               <!-- Call button-->
-				      <a class="btn btn-default navbar-btn" style="color:#b59664"
-                href="tel:+14155130144">
+				      <a class="btn btn-default navbar-btn" href="tel:+14155130144">
                 <span class="fa fa-phone fa-2x"	aria-hidden="true"></span></a>
 
               <!-- Twitter Button -->
-				      <a class="btn btn-default navbar-btn" style="color:#b59664"
-                href="https://twitter.com/intent/tweet?screen_name=rosalynddale">
+				      <a class="btn btn-default navbar-btn"
+                href="https://twitter.com/rosalynddale">
                 <span i class="icon-twitter icon-2x" aria-hidden="true"></span></a>
 						</ul>
 					</div>
@@ -118,17 +137,17 @@
         <div class="container margin-base-vertical text-center">
 
         <p><h2>Branding</h2></p>
-        <p>Your distinct vision brought to life. Let us develop a unique brand
+        <p class="branding-box-copy">Your distinct vision brought to life. Let us develop a unique brand
          identity that tells your story.</p>
 
         <p><h2>Marketing</h2></p>
-        <p>Promotion, market research, and advertising. </p>
+        <p class="branding-box-copy">Promotion, market research, and advertising. </p>
 
         <p><h2>Web Design</h2></p>
-        <p>We specialize in creating a fresh look that will speak to your customers.</p>
+        <p class="branding-box-copy">We specialize in creating a fresh look that will speak to your customers.</p>
 
         <p><h2>Photography</h2></p>
-        <p> Visual media is critical in advertising campaigns. We provide product,
+        <p class="branding-box-copy">Visual media is critical in advertising campaigns. We provide product,
            service, and professional portraits. </p>
 
       </div>
