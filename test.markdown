@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: unstyled
 title: Markdown Test
 ---
 
@@ -9,11 +9,16 @@ This is a *markdown* document.  You can _underline_ things,
 *emphasize*, or even **bold** them.
 This is still in the first paragraph.
 So is this.
-This will all be on the same line.
+This will all be
+on the same line.
 
 However, this is the second paragraph because of the double space above.
 This is still the second paragraph.
 This is the third sentence in the second paragraph.
+All
+of
+this
+is the second paragraph.
 
 # Useful Links
 
